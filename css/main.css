@@ -779,8 +779,16 @@ ul, li {
 
 .footer__link {
   position: fixed;
-  top: 650px;
-  right: 214px;
+  top: 700px;
+  right: 10px;
   z-index: 3;
+}
+
+@media only screen and (max-width: 600px) {
+  .link__img {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
