@@ -1,0 +1,146 @@
+.hero__cars{
+  padding: 200px 0;
+}
+
+.cars__inner{
+  display: flex;
+}
+
+.cars__info{
+  width: 100%;
+  max-width: 528px;
+  margin-right: 40px;
+}
+
+.cars__title{
+  margin: 0;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+
+.cars__text{
+  margin: 0;
+  font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.cars__inner--column{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+}
+
+.cars__info--column{
+  margin: 0;
+  margin-left: 40px;
+}
+
+@include media-max (1150px){
+  .cars__inner{
+    display: block;
+    text-align: center;
+  }
+
+  .cars__info{
+    width: 100%;
+  max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@include media-max (760px){
+  .cars__inner{
+    display: block;
+    text-align: center;
+  }
+
+  .cars__info{
+    width: 100%;
+  max-width: 528px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@include media-max (700px){
+  .cars__inner{
+    display: block;
+    text-align: center;
+  }
+
+  .cars__info{
+    width: 100%;
+  max-width: 528px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@include media-max (550px){
+  .cars__inner{
+    display: block;
+    text-align: center;
+  }
+
+  .cars__info{
+    width: 100%;
+  max-width: 335px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .cars__title{
+    font-size: 24px;
+line-height: 33px;
+  }
+
+  .cars__text{
+    font-size: 16px;
+line-height: 26px;
+  }
+}
+
+@include media-max (415px){
+  .cars__inner{
+    display: block;
+    text-align: start;
+  }
+
+  .cars__info{
+    width: 100%;
+  max-width: 335px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .cars__title{
+    font-size: 24px;
+line-height: 33px;
+  }
+
+  .cars__text{
+    font-size: 16px;
+line-height: 26px;
+  }
+
+  .cars__picture{
+    display: block;
+  }
+
+  .cars__tesla{
+    width: 100%;
+  }
+}

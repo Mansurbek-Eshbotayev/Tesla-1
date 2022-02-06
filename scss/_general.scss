@@ -12,10 +12,16 @@ html {
 
 
 body {
-	font-family:  'Arial', 'sans-serif';
+	font-family: 'Manrope' 'Arial', 'sans-serif';
 	margin: 0;
 	padding: 0;
+	background-color: #000;
+	position: relative;
+	
+}
 
+.hero{
+	margin-bottom: 200px;
 }
 
 img {
@@ -24,4 +30,8 @@ img {
 
 hr{
 	margin: 0;
+}
+
+ul ,li{
+	list-style: none;
 }

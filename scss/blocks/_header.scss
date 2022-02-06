@@ -1,0 +1,132 @@
+.header{
+  height: 900px;
+  background-image: url(../images/hedercar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+
+.heder__info{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header__img{
+  margin-bottom: 50px;
+}
+
+.header__title{
+  margin: 0;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+margin-bottom: 560px;
+}
+
+.header__link{
+  text-decoration: none;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+padding: 15px 60px;
+border: 2px solid #FFFFFF;
+transition: all 0.3s ease;
+
+ &:hover{
+   color: #000000;
+   background-color: #FFFFFF;
+ }
+}
+
+@include media-max (960px){
+  .container{
+    padding: 0 40px;
+  }
+}
+
+@include media-max (700px){
+  .container{
+    padding: 0 40px;
+  }
+
+  .header__title{
+    font-size: 23px;
+  }
+
+  .header__img{
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@include media-max (600px){
+  .container{
+    padding: 0 20px;
+  }
+
+  .header__title{
+    font-size: 20px;
+line-height: 25px;
+  }
+
+  .header__img{
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .header{
+    
+    background-image: url(../../images/mobilecar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+  }
+
+  
+}
+
+@include media-max (400px){
+  .container{
+    padding: 0 20px;
+  }
+
+  .heder__info{
+    padding-top: 60px;
+  }
+
+  .header__title{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 300px;
+    
+    font-size: 18px;
+line-height: 25px;
+  }
+
+  .header__img{
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .header{
+    
+    background-image: url(../../images/mobilecar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+  }
+
+  .header__link{
+    width: 100%;
+    display: block;
+  }
+}

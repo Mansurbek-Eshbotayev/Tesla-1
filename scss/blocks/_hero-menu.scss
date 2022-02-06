@@ -1,0 +1,82 @@
+.hero__menu{
+  background-image: url(../../images/dots.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 712px) calc(50% - -754px);
+}
+
+.menu__list{
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item{
+  margin-bottom: 80px;
+}
+
+.menu__item:nth-child(2){
+  margin-bottom: 200px;
+}
+
+
+.menu__title{
+  margin: 0;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+
+.menu__text{
+  width: 100%;
+  max-width: 970px;
+  margin: 0;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.menu__img{
+  display: block;
+}
+
+.cars__tesla{
+  width: 100%;
+}
+
+@include media-max (730px){
+  .menu__title{
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .menu__text{
+    width: 100%;
+    max-width: 520px;
+    font-size: 19px;
+    line-height: 29px;
+  }
+}
+
+@include media-max (440px){
+  .menu__title{
+    font-size: 24px;
+line-height: 33px;
+  }
+
+  .menu__text{
+    width: 100%;
+    max-width: 335px;
+    font-size: 16px;
+line-height: 26px;
+  }
+}
